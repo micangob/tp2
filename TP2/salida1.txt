@@ -1,0 +1,210 @@
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 1
+
+id: 11 - cliente: Olazabal - producto: Laptop - valor 1200.1
+id: 13 - cliente: Leone - producto: Taladro - valor 800.75
+id: 19 - cliente: Agirre - producto: Mochila - valor 65.5
+id: 15 - cliente: Perez - producto: Mochila - valor 70.25
+id: 18 - cliente: Perez - producto: Mochila - valor 68
+id: 5 - cliente: Agirre - producto: Laptop - valor 995.65
+id: 8 - cliente: Leone - producto: Laptop - valor 1500
+id: 7 - cliente: Perez - producto: Zapatilla - valor 30.25
+id: 1 - cliente: Leone - producto: Taladro - valor 775
+id: 3 - cliente: Olazabal - producto: Laptop - valor 920.1
+id: 10 - cliente: Rodriguez - producto: Taladro - valor 645.5
+id: 17 - cliente: Rodriguez - producto: Zapatilla - valor 35.45
+id: 9 - cliente: Agirre - producto: Zapatilla - valor 32.7
+id: 14 - cliente: Colombo - producto: Taladro - valor 880
+id: 6 - cliente: Leone - producto: Zapatilla - valor 31
+id: 2 - cliente: Rodriguez - producto: Laptop - valor 1210.5
+id: 20 - cliente: Agirre - producto: Mochila - valor 52.6
+id: 12 - cliente: Olazabal - producto: Laptop - valor 1390.45
+id: 4 - cliente: Olazabal - producto: Mochila - valor 56
+id: 16 - cliente: Colombo - producto: Mochila - valor 62
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+id: 5 - cliente: Agirre - producto: Laptop - valor 995.65
+id: 19 - cliente: Agirre - producto: Mochila - valor 65.5
+id: 20 - cliente: Agirre - producto: Mochila - valor 52.6
+id: 9 - cliente: Agirre - producto: Zapatilla - valor 32.7
+id: 16 - cliente: Colombo - producto: Mochila - valor 62
+id: 14 - cliente: Colombo - producto: Taladro - valor 880
+id: 8 - cliente: Leone - producto: Laptop - valor 1500
+id: 13 - cliente: Leone - producto: Taladro - valor 800.75
+id: 1 - cliente: Leone - producto: Taladro - valor 775
+id: 6 - cliente: Leone - producto: Zapatilla - valor 31
+id: 11 - cliente: Olazabal - producto: Laptop - valor 1200.1
+id: 3 - cliente: Olazabal - producto: Laptop - valor 920.1
+id: 12 - cliente: Olazabal - producto: Laptop - valor 1390.45
+id: 4 - cliente: Olazabal - producto: Mochila - valor 56
+id: 15 - cliente: Perez - producto: Mochila - valor 70.25
+id: 18 - cliente: Perez - producto: Mochila - valor 68
+id: 7 - cliente: Perez - producto: Zapatilla - valor 30.25
+id: 2 - cliente: Rodriguez - producto: Laptop - valor 1210.5
+id: 10 - cliente: Rodriguez - producto: Taladro - valor 645.5
+id: 17 - cliente: Rodriguez - producto: Zapatilla - valor 35.45
+
+Despachos: 
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Agirre
+Ingrese el Producto a despachar:
+Mochila
+Se despacharan los siguientes pedidos:
+id: 19 - cliente: Agirre - producto: Mochila - valor 65.5
+id: 20 - cliente: Agirre - producto: Mochila - valor 52.6
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Olazabal
+Ingrese el Producto a despachar:
+Laptop
+Se despacharan los siguientes pedidos:
+id: 11 - cliente: Olazabal - producto: Laptop - valor 1200.1
+id: 3 - cliente: Olazabal - producto: Laptop - valor 920.1
+id: 12 - cliente: Olazabal - producto: Laptop - valor 1390.45
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+id: 5 - cliente: Agirre - producto: Laptop - valor 995.65
+id: 9 - cliente: Agirre - producto: Zapatilla - valor 32.7
+id: 16 - cliente: Colombo - producto: Mochila - valor 62
+id: 14 - cliente: Colombo - producto: Taladro - valor 880
+id: 8 - cliente: Leone - producto: Laptop - valor 1500
+id: 13 - cliente: Leone - producto: Taladro - valor 800.75
+id: 1 - cliente: Leone - producto: Taladro - valor 775
+id: 6 - cliente: Leone - producto: Zapatilla - valor 31
+id: 4 - cliente: Olazabal - producto: Mochila - valor 56
+id: 15 - cliente: Perez - producto: Mochila - valor 70.25
+id: 18 - cliente: Perez - producto: Mochila - valor 68
+id: 7 - cliente: Perez - producto: Zapatilla - valor 30.25
+id: 2 - cliente: Rodriguez - producto: Laptop - valor 1210.5
+id: 10 - cliente: Rodriguez - producto: Taladro - valor 645.5
+id: 17 - cliente: Rodriguez - producto: Zapatilla - valor 35.45
+
+Despachos: 
+cliente: Agirre - bultos: 2 - valor 118.1
+cliente: Olazabal - bultos: 3 - valor 3510.65
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Sarasa
+Ingrese el Producto a despachar:
+Manteca
+No hay pedidos pendientes del cliente Sarasa de producto Manteca
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 1
+
+id: 11 - cliente: Olazabal - producto: Laptop - valor 1200.1
+id: 13 - cliente: Leone - producto: Taladro - valor 800.75
+id: 19 - cliente: Agirre - producto: Mochila - valor 65.5
+id: 15 - cliente: Perez - producto: Mochila - valor 70.25
+id: 18 - cliente: Perez - producto: Mochila - valor 68
+id: 5 - cliente: Agirre - producto: Laptop - valor 995.65
+id: 8 - cliente: Leone - producto: Laptop - valor 1500
+id: 7 - cliente: Perez - producto: Zapatilla - valor 30.25
+id: 1 - cliente: Leone - producto: Taladro - valor 775
+id: 3 - cliente: Olazabal - producto: Laptop - valor 920.1
+id: 10 - cliente: Rodriguez - producto: Taladro - valor 645.5
+id: 17 - cliente: Rodriguez - producto: Zapatilla - valor 35.45
+id: 9 - cliente: Agirre - producto: Zapatilla - valor 32.7
+id: 14 - cliente: Colombo - producto: Taladro - valor 880
+id: 6 - cliente: Leone - producto: Zapatilla - valor 31
+id: 2 - cliente: Rodriguez - producto: Laptop - valor 1210.5
+id: 20 - cliente: Agirre - producto: Mochila - valor 52.6
+id: 12 - cliente: Olazabal - producto: Laptop - valor 1390.45
+id: 4 - cliente: Olazabal - producto: Mochila - valor 56
+id: 16 - cliente: Colombo - producto: Mochila - valor 62
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+id: 5 - cliente: Agirre - producto: Laptop - valor 995.65
+id: 19 - cliente: Agirre - producto: Mochila - valor 65.5
+id: 20 - cliente: Agirre - producto: Mochila - valor 52.6
+id: 9 - cliente: Agirre - producto: Zapatilla - valor 32.7
+id: 16 - cliente: Colombo - producto: Mochila - valor 62
+id: 14 - cliente: Colombo - producto: Taladro - valor 880
+id: 8 - cliente: Leone - producto: Laptop - valor 1500
+id: 13 - cliente: Leone - producto: Taladro - valor 800.75
+id: 1 - cliente: Leone - producto: Taladro - valor 775
+id: 6 - cliente: Leone - producto: Zapatilla - valor 31
+id: 11 - cliente: Olazabal - producto: Laptop - valor 1200.1
+id: 3 - cliente: Olazabal - producto: Laptop - valor 920.1
+id: 12 - cliente: Olazabal - producto: Laptop - valor 1390.45
+id: 4 - cliente: Olazabal - producto: Mochila - valor 56
+id: 15 - cliente: Perez - producto: Mochila - valor 70.25
+id: 18 - cliente: Perez - producto: Mochila - valor 68
+id: 7 - cliente: Perez - producto: Zapatilla - valor 30.25
+id: 2 - cliente: Rodriguez - producto: Laptop - valor 1210.5
+id: 10 - cliente: Rodriguez - producto: Taladro - valor 645.5
+id: 17 - cliente: Rodriguez - producto: Zapatilla - valor 35.45
+
+Despachos: 
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 4
+
+

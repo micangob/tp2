@@ -1,0 +1,221 @@
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 1
+
+11  Olazabal    Laptop       1200.10
+13  Leone       Taladro       800.75
+19  Agirre      Mochila        65.50
+15  Perez       Mochila        70.25
+18  Perez       Mochila        68.00
+ 5  Agirre      Laptop        995.65
+ 8  Leone       Laptop       1500.00
+ 7  Perez       Zapatilla      30.25
+ 1  Leone       Taladro       775.00
+ 3  Olazabal    Laptop        920.10
+10  Rodriguez   Taladro       645.50
+17  Rodriguez   Zapatilla      35.45
+ 9  Agirre      Zapatilla      32.70
+14  Colombo     Taladro       880.00
+ 6  Leone       Zapatilla      31.00
+ 2  Rodriguez   Laptop       1210.50
+20  Agirre      Mochila        52.60
+12  Olazabal    Laptop       1390.45
+ 4  Olazabal    Mochila        56.00
+16  Colombo     Mochila        62.00
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+ID  Cliente     Producto      Valor 
+------------------------------------
+ 5  Agirre      Laptop        995.65
+19  Agirre      Mochila        65.50
+20  Agirre      Mochila        52.60
+ 9  Agirre      Zapatilla      32.70
+16  Colombo     Mochila        62.00
+14  Colombo     Taladro       880.00
+ 8  Leone       Laptop       1500.00
+13  Leone       Taladro       800.75
+ 1  Leone       Taladro       775.00
+ 6  Leone       Zapatilla      31.00
+11  Olazabal    Laptop       1200.10
+ 3  Olazabal    Laptop        920.10
+12  Olazabal    Laptop       1390.45
+ 4  Olazabal    Mochila        56.00
+15  Perez       Mochila        70.25
+18  Perez       Mochila        68.00
+ 7  Perez       Zapatilla      30.25
+ 2  Rodriguez   Laptop       1210.50
+10  Rodriguez   Taladro       645.50
+17  Rodriguez   Zapatilla      35.45
+
+Despachos: 
+Cliente     Bultos  Valor 
+--------------------------
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Agirre
+Ingrese el Producto a despachar:
+Mochila
+Se despacharan los siguientes pedidos:
+19  Agirre      Mochila        65.50
+20  Agirre      Mochila        52.60
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Olazabal
+Ingrese el Producto a despachar:
+Laptop
+Se despacharan los siguientes pedidos:
+11  Olazabal    Laptop       1200.10
+ 3  Olazabal    Laptop        920.10
+12  Olazabal    Laptop       1390.45
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+ID  Cliente     Producto      Valor 
+------------------------------------
+ 5  Agirre      Laptop        995.65
+ 9  Agirre      Zapatilla      32.70
+16  Colombo     Mochila        62.00
+14  Colombo     Taladro       880.00
+ 8  Leone       Laptop       1500.00
+13  Leone       Taladro       800.75
+ 1  Leone       Taladro       775.00
+ 6  Leone       Zapatilla      31.00
+ 4  Olazabal    Mochila        56.00
+15  Perez       Mochila        70.25
+18  Perez       Mochila        68.00
+ 7  Perez       Zapatilla      30.25
+ 2  Rodriguez   Laptop       1210.50
+10  Rodriguez   Taladro       645.50
+17  Rodriguez   Zapatilla      35.45
+
+Despachos: 
+Cliente     Bultos  Valor 
+--------------------------
+Agirre       2      118.10
+Olazabal     3     3510.65
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 3
+
+Despachar
+Ingrese el Cliente al que quiere despachar:
+Sarasa
+Ingrese el Producto a despachar:
+Manteca
+No hay pedidos pendientes del cliente Sarasa de producto Manteca
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 1
+
+11  Olazabal    Laptop       1200.10
+13  Leone       Taladro       800.75
+19  Agirre      Mochila        65.50
+15  Perez       Mochila        70.25
+18  Perez       Mochila        68.00
+ 5  Agirre      Laptop        995.65
+ 8  Leone       Laptop       1500.00
+ 7  Perez       Zapatilla      30.25
+ 1  Leone       Taladro       775.00
+ 3  Olazabal    Laptop        920.10
+10  Rodriguez   Taladro       645.50
+17  Rodriguez   Zapatilla      35.45
+ 9  Agirre      Zapatilla      32.70
+14  Colombo     Taladro       880.00
+ 6  Leone       Zapatilla      31.00
+ 2  Rodriguez   Laptop       1210.50
+20  Agirre      Mochila        52.60
+12  Olazabal    Laptop       1390.45
+ 4  Olazabal    Mochila        56.00
+16  Colombo     Mochila        62.00
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 2
+
+Pedidos: 
+ID  Cliente     Producto      Valor 
+------------------------------------
+ 5  Agirre      Laptop        995.65
+19  Agirre      Mochila        65.50
+20  Agirre      Mochila        52.60
+ 9  Agirre      Zapatilla      32.70
+16  Colombo     Mochila        62.00
+14  Colombo     Taladro       880.00
+ 8  Leone       Laptop       1500.00
+13  Leone       Taladro       800.75
+ 1  Leone       Taladro       775.00
+ 6  Leone       Zapatilla      31.00
+11  Olazabal    Laptop       1200.10
+ 3  Olazabal    Laptop        920.10
+12  Olazabal    Laptop       1390.45
+ 4  Olazabal    Mochila        56.00
+15  Perez       Mochila        70.25
+18  Perez       Mochila        68.00
+ 7  Perez       Zapatilla      30.25
+ 2  Rodriguez   Laptop       1210.50
+10  Rodriguez   Taladro       645.50
+17  Rodriguez   Zapatilla      35.45
+
+Despachos: 
+Cliente     Bultos  Valor 
+--------------------------
+
+INGRESE UNA OPCION
+
+1: Leer Datos
+2: Mostrar
+3: Despachar
+4: Salir
+--> 4
+
