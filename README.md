@@ -53,10 +53,17 @@ int main() {
 	//	*entra al switch*
 	//cout<<"ingrese un numero entre el 1 y el 4 ";
 	
+	do{
+	    cout<<"ingrese un numero entre el 1 y el 4: ";  //probar si esta bien 
+	    cin>>opcion;	
+	}while(opcion>5 && opcion<0);
+	
 	Registro reg;
 	Nodo<Registro> *listaord = nullptr;
     fstream archi;
-	
+	  
+	Nodo<Registro> *p;
+	  
 	switch (opcion)
 	{
 	case 1 :
@@ -80,6 +87,20 @@ int main() {
 		//mostrar(listadespachos)
 		break;
 	case 3:
+		
+	    cout<<"ingrese el cliente: ";
+	    if(cin>>reg.cliente){
+	    	cout<<"ingrese el producto: "
+	    	while(cin>>reg.producto){
+	    		cout<<"cliente-producto seleccionados: "<<endl;
+	    		while(p = extraer(reg,listaord,critclientasc)){
+	    			cout<<p->data<<endl;
+	    			reg.id = p->data.id;
+	    			delete p;
+				}
+			}
+		}
+	    
 		break;
 	case 4:
 		break;
