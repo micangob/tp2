@@ -46,13 +46,6 @@ int critclieprod (Registro a, Registro b)
 } 
 
 
-
-int critid (Registro a, Registro b)
-{
-	return a.id - b.id;
-}
-
-
 void pedirNumero(int& opcion){
 	
 	
@@ -79,8 +72,6 @@ int main() {
 	pedirNumero(opcion);
 	
 	
-	
-	Nodo<Registro> *listaid = nullptr;
 	Nodo<Registro> *listaord = nullptr;
 	Registro reg;
     fstream archi;
@@ -104,13 +95,12 @@ int main() {
 			return EXIT_FAILURE;
 		}
 		while (archi >> reg) { // rellenamos listas
-		insertar(reg, listaid, critid);
 		insertar(reg, listaord, critclieprod);
 		cout << reg << endl;
 		}
 		
 	archi.close();
-		//mostrar(listaid);
+	
 		break;
 	case 2:
 		if(lecturaIniciada){
