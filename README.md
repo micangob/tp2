@@ -61,7 +61,9 @@ int main() {
 	Registro reg;
 	Nodo<Registro> *listaord = nullptr;
     fstream archi;
-	
+	  
+	Nodo<Registro> *p;
+	  
 	switch (opcion)
 	{
 	case 1 :
@@ -85,6 +87,20 @@ int main() {
 		//mostrar(listadespachos)
 		break;
 	case 3:
+		
+	    cout<<"ingrese el cliente: ";
+	    if(cin>>reg.cliente){
+	    	cout<<"ingrese el producto: "
+	    	while(cin>>reg.producto){
+	    		cout<<"cliente-producto seleccionados: "<<endl;
+	    		while(p = extraer(reg,listaord,critclientasc)){
+	    			cout<<p->data<<endl;
+	    			reg.id = p->data.id;
+	    			delete p;
+				}
+			}
+		}
+	    
 		break;
 	case 4:
 		break;
