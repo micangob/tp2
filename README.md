@@ -53,6 +53,11 @@ int main() {
 	//	*entra al switch*
 	//cout<<"ingrese un numero entre el 1 y el 4 ";
 	
+	do{
+	    cout<<"ingrese un numero entre el 1 y el 4: ";  //probar si esta bien 
+	    cin>>opcion;	
+	}while(opcion>5 && opcion<0);
+	
 	Registro reg;
 	Nodo<Registro> *listaord = nullptr;
     fstream archi;
